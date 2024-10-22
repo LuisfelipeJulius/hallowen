@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
         mostrarPopup();
     
         // Enviar datos al servidor
-        fetch('https://hook.us1.make.com/kgrb7iibd767wvi7gllcuqt8gce6a235', {
+        fetch('https://hook.us2.make.com/m8ebk2g5wq9q6jvszwj3kshqomwdm38r', {
             method: 'POST',
             body: formDataDesafio
         })
