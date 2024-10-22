@@ -381,7 +381,7 @@ label{
         #caja-formulario{
             display: flex;
             flex-direction: column;
-            background-color: #ffffff;
+            background-color: #ffffff00 !important;
             height: 100%;
             width: 100%;
 
