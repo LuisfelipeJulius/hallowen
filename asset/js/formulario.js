@@ -69,25 +69,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
         // Obtener los elementos del formulario de desafío
         var nombre = document.getElementById('nombre').value;
-        var apellido = document.getElementById('apellido').value;
-        var telefono = document.getElementById('Telephone').value;
         var email = document.getElementById('email').value;
     
-        // Obtener el valor seleccionado del campo departamento
-        var departamentoSelect = document.getElementById('departamento');
-        var departamento = departamentoSelect.options[departamentoSelect.selectedIndex].value;
-    
-        // Obtener el valor seleccionado del campo ciudad
-        var ciudadSelect = document.getElementById('ciudad');
-        var ciudad = ciudadSelect.options[ciudadSelect.selectedIndex].value;
     
         // Agregar datos del formulario de desafío al FormData correspondiente
         formDataDesafio.append('nombre', nombre);
-        formDataDesafio.append('apellido', apellido);
-        formDataDesafio.append('telefono', telefono);
         formDataDesafio.append('email', email);
-        formDataDesafio.append('departamento', departamento);
-        formDataDesafio.append('ciudad', ciudad);
     
         // Agregar información adicional del formulario de preguntas al FormData del formulario de desafío
         var fechaHoraActual = new Date();
@@ -108,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.overlay').style.display = 'none';
             document.querySelector('.spinner-popup').style.display = 'none';
             // Redirige a la siguiente URL después de enviar el formulario con éxito
-            window.top.location.href = 'https://www.momentosfriko.com/desafio-copa-america/registro-exitoso';
+            window.top.location.href = 'https://www.lorenzano.co/halloween-gracias-concurso';
         }, 6000);
     }
         mostrarPopup();
