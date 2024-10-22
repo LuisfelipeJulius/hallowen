@@ -41,8 +41,8 @@ body {
 
 
         .btn_friko {
-        background-color: #F7C90A;
-        color: #001789;
+        background-color: #ffb601;
+        color: #034a28;
         padding: 14px 24px 14px 24px;
         border-radius: 6px;
         border:none;
@@ -53,8 +53,8 @@ body {
         }
 
         .btn_friko:hover {
-        background-color: #001789;
-        color: #ffff;
+        background-color: #034a28;
+        color: #ffb601;
         padding: 14px 24px 14px 24px;
         border-radius: 6px;
         border:none;
@@ -66,8 +66,8 @@ body {
 
         .btn_friko2{
 
-            background-color: #001789;
-        color: #F7C90A;
+        background-color: #034a28;
+        color: #ffb601;
         padding: 14px 24px 14px 24px;
         border-radius: 6px;
         border:none;
@@ -116,8 +116,8 @@ body {
         }
 
         .form-check-input:checked{
-            background-color: #F7C90A;
-            border-color: #F7C90A;
+            background-color: #00ffbc;
+            border-color: #00ffbc;
         }
 
 
@@ -126,7 +126,7 @@ body {
     }
 
     .columna_formulario{
-        padding: 50px 0px 0xp 0px;
+        padding: 50px 0px 0px 0px;
     }
 
        
@@ -242,10 +242,7 @@ body {
 
 .botones{
 
-    margin: auto;
-    margin-left: 15%;
-    margin-bottom: 20%;
-    margin-top: -14%;
+    padding: 0px 50px 50px 50px;
     
 }
 
@@ -276,23 +273,21 @@ label{
 }
 
 .caja_preguntas{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 6px;
-    margin: auto;
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
     width: 100%;
-    height: 50%;
 }
 
 .titulo_pregunta{
-    color: #001789;
+    color: #00ffbc;
     font-weight: 800;
     font-size: 1.2rem;
 }
 
 .progress-bar-custom {
 
-    background-color: #F7C90A; /* Color personalizado de la barra de progreso */
+    background-color: #00ffbc; /* Color personalizado de la barra de progreso */
   }
   .paso {
     position: relative;
@@ -455,7 +450,6 @@ label{
         .caja_preguntas {
             background-color: rgba(255, 255, 255, 0);
             border-radius: 6px;
-            margin: auto;
             padding: 50px 50px 0px 50px;
             width: 100%;     
         }
