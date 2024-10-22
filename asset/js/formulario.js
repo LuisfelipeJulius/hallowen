@@ -70,11 +70,13 @@ document.addEventListener('DOMContentLoaded', function() {
         // Obtener los elementos del formulario de desafío
         var nombre = document.getElementById('nombre').value;
         var email = document.getElementById('email').value;
+        var aceptaTerminos = document.getElementById("agreeCheckbox").checked;
     
     
         // Agregar datos del formulario de desafío al FormData correspondiente
         formDataDesafio.append('nombre', nombre);
         formDataDesafio.append('email', email);
+        formDataDesafio.append('aceptaTerminos', aceptaTerminos);
     
         // Agregar información adicional del formulario de preguntas al FormData del formulario de desafío
         var fechaHoraActual = new Date();
@@ -120,6 +122,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
 });
+
+
+
+// Mostrar el popup cuando se hace clic en el texto de autorización
+document.getElementById("popupTrigger").addEventListener("click", function() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "flex";
+    // Asegurar que el popup se abra en toda la pantalla del sitio
+    window.parent.postMessage({action: 'showPopup'}, '*');
+    });
+    
+    // Cerrar el popup cuando se hace clic en el botón de cerrar
+    document.getElementById("closePopupButton").addEventListener("click", function() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "none";
+    });
 
 
 
