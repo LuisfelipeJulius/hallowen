@@ -399,7 +399,7 @@ label{
 
         #caja-preguntas{display: flex;
             flex-direction: column;
-            background-color: #ffffff;}
+            background-color: #ffffff00;}
 
         .columna_derecha{
             width: 100%;
@@ -451,12 +451,12 @@ label{
         .caja_preguntas {
             background-color: rgba(255, 255, 255, 0);
             border-radius: 6px;
-            padding: 50px 50px 0px 50px;
+            padding: 0px;
             width: 100%;     
         }
 
         .botones {
-            padding: 0px 50px 50px 50px;
+            padding: 0px ;
         }
             
 
@@ -571,5 +571,8 @@ label{
     top: 0px;
     /* right: 100px; */
     bottom: 0px;
-    color:#00A650;
+    color:#ffffff;
+    background-color: #F7C90A;
+    padding: 10px;
+    margin-bottom: 30px;
   }
